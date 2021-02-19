@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: "Noto sans" serif;
+    font-size: 16px;
+    background-color: crimson;
+}
+
+header{
+    padding:1,2rem;
+    background-color:#0099cc;
+    color: #000066;
+    top: 0;
+    position: sticky;
+    border-bottom-style:solid;
+    border-color:black;
+    border-bottom-width: 10px;
+}
+h1{
+     text-decoration: underline;
+     text-align: center;
+     padding:20px;
+     margin-top: 0;
+     margin-bottom: 14px
+}
+
+#container{
+    display: grid;
+    margin: 50px;
+    padding: 50px;
+    height: 620px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+    
+}

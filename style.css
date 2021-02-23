@@ -32,11 +32,11 @@ h1{
 #container{
     display: grid;
     grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 10%;
     margin: 50px;
     padding: 50px;
     height: 620px;
-    background-color: lightgray;
+    background-color: white;
     border-style: solid;
     border-color: black;
     border-width: 20px;
@@ -63,16 +63,11 @@ h1{
     color: black;
     font-size: 16px;
 }
-#NewCont{
-    width: 200px;
-    height: 50px;
-}
 #new{
     width:200px;
     height: 50px;
     font-size: 24px;
     color: #000066;
-    background-color: white;
     font-family: "Noto sans", serif;
     border-style: solid;
     border-color: black;

@@ -32,7 +32,7 @@ h1{
 #container{
     display: grid;
     grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
-    grid-template-rows: 10%;
+    grid-template-rows: 10% 90%;
     margin: 50px;
     padding: 50px;
     height: 620px;
@@ -58,20 +58,18 @@ h1{
     justify-content: space-evenly;
     align-items: center;
 }
-#contact{
+a{
     text-decoration: none;
     color: black;
     font-size: 16px;
 }
-#new{
-    width:200px;
-    height: 50px;
-    font-size: 24px;
+.New{
+    font-size: 16px;
     color: #000066;
     font-family: "Noto sans", serif;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border: 0;   
+    cursor: pointer;
+    background: transparent;
 }
 .Day{
     text-align: center;
@@ -79,3 +77,38 @@ h1{
     border-color: black;
     border-width: 2px;
 }
+
+input{
+    outline: none;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    border-bottom: 2px solid black;
+}
+
+.New:hover,
+.New:focus{
+    outline: none;
+    font-weight: bolder;
+}
+
+ul{
+    margin-top: 12px;
+}
+
+li {
+    line-height: 2rem;
+    list-style: circle;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  li:hover {
+    font-weight: bolder;
+    text-decoration: line-through 2px;
+  }
+
+  .list-root{
+      display: flex;
+      justify-content: center;
+  }

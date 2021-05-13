@@ -30,7 +30,7 @@ function todoList(items) {
 function removeItem(event) {
     let itemToRemove = event.target.innerText;
     todos = todos.filter((item) => item !== itemToRemove);
-    updateList;
+    updateList();
 }
 
 function updateList(){
